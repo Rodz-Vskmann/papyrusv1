@@ -40,7 +40,7 @@ export default function Home() {
         <ul className="nav_menu_list">
           <li className="nav_menu_item">
             <Link href="/account" className="nav_menu_link">
-              accountOIIIIIIIIII
+              account
             </Link>
 
            
