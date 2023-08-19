@@ -1,0 +1,61 @@
+.user-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.username {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.description {
+  font-style: italic;
+}
+
+.about, .skills, .contact {
+  padding: 40px;
+  background: #fff;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills .skill {
+  margin: 20px 0;
+  position: relative;
+}
+
+.progress {
+  height: 10px;
+  background: #f4f4f4;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #6a11cb;
+  position: absolute;
+  transition: width 1s;
+}
+
+.js { width: 80%; }
+.react { width: 70%; }
+/* Adicione mais estilos de barra de progresso aqui */
+
+.contact p {
+  margin: 10px 0;
+}
