@@ -10,7 +10,7 @@ export default function Home() {
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PapyrusNote</title>
+  <title>Papyrus</title>
   {/* ==== STYLE.CSS ==== */}
   <link rel="stylesheet" href="/main/style.css" />
   {/* ====  REMIXICON CDN ==== */}
@@ -34,24 +34,19 @@ export default function Home() {
           <i className="ri-close-fill" />
         </button>
 
-       
-
-
         <ul className="nav_menu_list">
           <li className="nav_menu_item">
             <Link href="/account" className="nav_menu_link">
               account
             </Link>
-
-           
-
-
           </li>
+
           <li className="nav_menu_item">
-            <a href="#" className="nav_menu_link">
+            <Link href="/about" className="nav_menu_link">
               about
-            </a>
+            </Link>
           </li>
+
           <li className="nav_menu_item">
             <a href="#" className="nav_menu_link">
               service

@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "html-react-parser": "^4.2.1"
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.5",
+    "html-react-parser": "^4.2.1",
+    "react-icons": "^4.10.1",
+    "styled-components": "^6.0.7"
   }
 }
