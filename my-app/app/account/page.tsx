@@ -5,11 +5,11 @@ const BlankPage = () => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h1>Login</h1>
+        <h1>Register</h1>
         <form>
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
-          <button type="submit">Login</button>
+          <button type="submit">Register</button>
         </form>
       </div>
     </div>
